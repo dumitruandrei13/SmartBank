@@ -49,7 +49,7 @@ public:
     {
     }
 
-    [[nodiscard]] string getNume() const;
+    [[nodiscard]] const std::string& getNume() const { return nume; }
 
     void SetAdaugaSuma(int valoare) {
         this->sumabanca += valoare;
@@ -73,9 +73,6 @@ void Manager::prezintaBanca(const Banca& b) const {
     cout << this->nume << " (" << this->departament << ") va prezinta banca " << b.getNume() << ".\n";
 }
 
-string Banca::getNume() const {
-    return nume;
-}
 
 ostream& operator<<(ostream& os, const Banca& b) {
     os << "Banca: " << b.nume << "\n";
