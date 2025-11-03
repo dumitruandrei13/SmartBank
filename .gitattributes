@@ -3,6 +3,7 @@ ext/** linguist-vendored
 *.hpp linguist-language=C++
 .github/** linguist-generated
 CMakeLists.txt linguist-generated
+*.sh linguist-generated
 *.md linguist-documentation
 *.txt linguist-documentation
 *.cpp linguist-language=C++
