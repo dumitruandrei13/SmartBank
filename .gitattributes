@@ -1,10 +1,13 @@
-ext/** linguist-vendored
+ext/ linguist-vendored
+
 *.h linguist-language=C++
 *.hpp linguist-language=C++
-.github/** linguist-generated
+
+
+.github/ linguist-generated
 CMakeLists.txt linguist-generated
 *.sh linguist-generated
+
+
 *.md linguist-documentation
 *.txt linguist-documentation
-*.cpp linguist-language=C++
-*c linguist-language=C++
